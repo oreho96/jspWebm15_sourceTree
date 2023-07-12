@@ -1,0 +1,60 @@
+/* style.css */
+
+/* 테이블 스타일 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* 메뉴 스타일 */
+#menu {
+    background-color: #f2f2f2;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+}
+
+#menu ul li a:hover {
+    background-color: #ddd;
+}
+
+
+
+
+table th, table td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+/* 테이블 헤더 스타일 */
+table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* 게시물 행 스타일 */
+table td {
+    vertical-align: middle;
+}
+
+/* 게시물 번호, 제목, 작성자 정렬 */
+table td:nth-child(1),
+table td:nth-child(2),
+table td:nth-child(4) {
+    text-align: left;
+}
